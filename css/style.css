@@ -5,7 +5,6 @@ body {
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
     color: #505962;
-    background-color: #505962
 }
 
 /*----- NAV SCROLL OFFSET -----*/
@@ -57,6 +56,12 @@ body {
 .navbar.solid {
     background-color: rgba(0, 0, 0, .7) !important;
     transition: background-color 1s ease 0s;
+}
+
+/*============LANDING PAGE============*/
+
+.home-inner {
+    background-image: url('../img/computers.png');
 }
 
 
