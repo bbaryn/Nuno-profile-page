@@ -97,7 +97,7 @@ body {
     font-size: 1.1rem;
     font-weight: 400;
     text-transform: uppercase;
-    display: inline-block !important;
+    display: inline-block!important;
 }
 
 /*============FEATURES SECTION============*/
@@ -169,6 +169,25 @@ h3.heading {
 
 .feature p {
     font-size: 1.1rem;
+}
+
+/*============FIXED BACKGROUND IMAGE DARK============*/
+
+#fixed {
+    background-image: url('../img/fixed/apple.png');
+    z-index: -1;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 7rem 2rem;;
+    text-align: center;
+    z-index: 1000!important;
+}
+
+.dark h3,
+.dark p {
+    color: #e9ecef;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
