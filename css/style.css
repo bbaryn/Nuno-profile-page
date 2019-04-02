@@ -152,6 +152,25 @@ h3.heading {
     margin: 0 auto 2rem;
 }
 
+.feature {
+    text-align: center;
+}
+
+.feature .fa-layers {
+    color: #1ebba3;
+    height: 6rem;
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
