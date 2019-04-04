@@ -45,3 +45,26 @@ $(document).ready(function() {
         $('.arrow').css('opacity', 1-$(window).scrollTop() / 250);
     });
 });
+
+/*============MEET THE TEAM============*/
+
+$(document).ready(function() {
+    $('#team-slider').owlCarousel({
+        items: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        responsive: {
+            0 : {
+                items: 1
+            },
+            576 : {
+                items: 2
+            },
+            768 : {
+                items: 3
+            }
+        }
+    });
+});
