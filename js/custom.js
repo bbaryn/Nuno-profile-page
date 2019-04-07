@@ -68,3 +68,12 @@ $(document).ready(function() {
         }
     });
 });
+
+/*============SKILLS COUNTER============*/
+
+$(document).ready(function() {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1800
+    });
+});
