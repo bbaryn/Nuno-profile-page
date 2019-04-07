@@ -403,6 +403,8 @@ footer h3 {
     margin: 1.5rem 0;
 }
 
+/*============FOOTER CONTACT FORM============*/
+
 .form-group {
     margin-bottom: 1.3rem;
 }
@@ -432,8 +434,29 @@ input .btn {
 hr.socket {
     border: .2rem solid #666b71;
     width: 100%;
+}
 
 /*============FOOTER CONTACT FORM============*/
+
+.top-scroll svg.svg-inline--fa {
+    font-size: 3rem;
+    height: 1.7rem;
+    color: #53595f;
+    background: white;
+}
+
+a.top-scroll {
+    right: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    opacity: .3;
+    z-index: 1000;
+    display: none;
+}
+
+a.top-scroll:hover {
+    opacity: .5;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
